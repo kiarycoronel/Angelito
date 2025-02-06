@@ -1,13 +1,13 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
     text-align: center;
-    background-color: #fff3cd; /* Pale yellow background (yellow 5) */
-    padding: 20px;
+    background-color: #e0f7ff; /* Light blue background */
+    padding: 50px;
     margin: 0;
 }
 
 #container {
-    background: #ffffff; /* White container background for contrast */
+    background: #fff3cd; /* pale yellow background for contrast */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
