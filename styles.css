@@ -1,25 +1,25 @@
 body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
     text-align: center;
-    background-color: #e0f7ff; /* Light blue background */
-    padding: 50px;
+    background-color: #FBDDFF; /* Light pink background */
+    padding: 20px;
     margin: 0;
 }
 
 #container {
-    background: #fff3cd; /* pale yellow background for contrast */
+    background: #FFFFFF; /* White container background */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     display: inline-block;
     max-width: 500px;
-    border: 2px solid #ffcc00; /* Yellow border for the container */
+    border: 2px solid #C2A6F7; /* Light purple border for the container */
 }
 
 #mensaje {
     font-size: 18px;
     margin-bottom: 20px;
-    color: #0056b3; /* Blue text color for the message */
+    color: #8B72BE; /* Dark purple text color for the message */
 }
 
 #gif {
@@ -28,11 +28,11 @@ body {
     display: block; /* Prevents extra space below the image */
     margin: 0 auto; /* Centers the image */
     border-radius: 10px; /* Rounded corners for the GIF */
-    border: 2px solid #007BFF; /* Blue border around the GIF */
+    border: 2px solid #DEC1FF; /* Light purple border around the GIF */
 }
 
 button {
-    background-color: #007BFF; /* Blue button background */
+    background-color: #8B72BE; /* Dark purple button background */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -44,5 +44,5 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #6A5A8E; /* Slightly darker purple on hover */
 }
