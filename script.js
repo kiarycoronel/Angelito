@@ -52,6 +52,11 @@ const snoopyGifs = [
     "resourses/snoopy3.gif",
     "resourses/snoopy4.gif",
     "resourses/snoopy5.gif",
+    "resourses/snoopy6.gif",
+    "resourses/snoopy7.gif",
+    "resourses/snoopy8.gif",
+    "resourses/snoopy9.gif",
+    "resourses/snoopy91.gif"
 ];
 
 function obtenerMensaje() {
