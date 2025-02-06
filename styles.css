@@ -1,32 +1,38 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f0f0f0;
+    background-color: #fff3cd; /* Pale yellow background (yellow 5) */
     padding: 20px;
+    margin: 0;
 }
 
 #container {
-    background: white;
+    background: #ffffff; /* White container background for contrast */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     display: inline-block;
     max-width: 500px;
+    border: 2px solid #ffcc00; /* Yellow border for the container */
 }
 
 #mensaje {
     font-size: 18px;
     margin-bottom: 20px;
+    color: #0056b3; /* Blue text color for the message */
 }
 
 #gif {
-    max-width: 100%;
-    border-radius: 10px;
-    margin-top: 10px;
+    max-width: 50%; /* Ensures the GIF doesn't exceed the container width */
+    height: auto; /* Maintains the image's aspect ratio */
+    display: block; /* Prevents extra space below the image */
+    margin: 0 auto; /* Centers the image */
+    border-radius: 10px; /* Rounded corners for the GIF */
+    border: 2px solid #007BFF; /* Blue border around the GIF */
 }
 
 button {
-    background-color: #007BFF;
+    background-color: #007BFF; /* Blue button background */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -34,15 +40,9 @@ button {
     cursor: pointer;
     border-radius: 5px;
     transition: background 0.3s;
+    margin-top: 20px; /* Adds space above the button */
 }
 
 button:hover {
-    background-color: #0056b3;
-}
-
-#gif {
-    max-width: 50%; /* Evita que el GIF supere el ancho del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
-    display: block; /* Evita espacios extra debajo de la imagen */
-    margin: 0 auto; /* Centra la imagen */
+    background-color: #0056b3; /* Darker blue on hover */
 }
