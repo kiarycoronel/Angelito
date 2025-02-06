@@ -1,38 +1,38 @@
-body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+body { 
+    font-family: 'Dancing Script';
     text-align: center;
-    background-color: #FBDDFF; /* Light pink background */
+    background-color: #FBDDFF; /* Fondo rosa claro */
     padding: 20px;
     margin: 0;
 }
 
 #container {
-    background: #FFFFFF; /* White container background */
+    background: #FFFFFF; /* Fondo blanco para el contenedor */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     display: inline-block;
     max-width: 500px;
-    border: 2px solid #C2A6F7; /* Light purple border for the container */
+    border: 2px solid #C2A6F7; /* Borde morado claro */
 }
 
 #mensaje {
     font-size: 18px;
     margin-bottom: 20px;
-    color: #8B72BE; /* Dark purple text color for the message */
+    color: #8B72BE; /* Color de texto morado oscuro */
 }
 
 #gif {
-    max-width: 50%; /* Ensures the GIF doesn't exceed the container width */
-    height: auto; /* Maintains the image's aspect ratio */
-    display: block; /* Prevents extra space below the image */
-    margin: 0 auto; /* Centers the image */
-    border-radius: 10px; /* Rounded corners for the GIF */
-    border: 2px solid #DEC1FF; /* Light purple border around the GIF */
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid #DEC1FF; /* Borde morado claro */
 }
 
 button {
-    background-color: #8B72BE; /* Dark purple button background */
+    background-color: #8B72BE;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -40,9 +40,9 @@ button {
     cursor: pointer;
     border-radius: 5px;
     transition: background 0.3s;
-    margin-top: 20px; /* Adds space above the button */
+    margin-top: 20px;
 }
 
 button:hover {
-    background-color: #6A5A8E; /* Slightly darker purple on hover */
+    background-color: #6A5A8E;
 }
